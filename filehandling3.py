@@ -1,0 +1,5 @@
+f1=open("file_4.txt",'w+')
+f1.write("hi welcome to file handling concept")
+print(f1.tell())
+f1.seek(0)
+print(f1.read())
